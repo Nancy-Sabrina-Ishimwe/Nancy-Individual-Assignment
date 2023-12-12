@@ -6,7 +6,7 @@ body {
     font-family: 'Almarai', sans-serif; 
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(to bottom, #e7e7e7 80%, #fff);
+    background-image: linear-gradient(to bottom, #ab3333 80%, #fff);
 
 }
 .container {
@@ -48,7 +48,8 @@ body {
     margin-top: 30px;
 }
 .client img {
-    width: 70px;
+    width: 250px;
+    border-radius: 50%;
 }
 .client p {
     padding: 5px 10px;
