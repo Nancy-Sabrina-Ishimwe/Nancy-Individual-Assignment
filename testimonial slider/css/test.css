@@ -97,5 +97,42 @@ i {
     width: 45px;
     transition: 0.2s;
 }
-
+/* CSS for screens larger than 600px */
+.container {
+    width: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+ }
+ 
+ /* CSS for screens smaller than or equal to 600px */
+ @media (max-width: 600px) {
+    .container {
+        width: 100%;
+        padding: 20px;
+    }
+ 
+    .slide-row {
+        width: 100%;
+        flex-direction: column;
+    }
+ 
+    .slide-col {
+        width: 100%;
+    }
+ 
+    .client img {
+        width: 150px;
+    }
+ 
+    .user-text p:first-child {
+        font-size: 16px;
+    }
+ 
+    .client h3 {
+        font-size: 16px;
+    }
+ }
+ 
 
